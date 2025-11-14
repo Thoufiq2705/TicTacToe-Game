@@ -1,37 +1,80 @@
-# Getting Started with Create React App
+# TicTacToe Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple Tic-Tac-Toe game built with React. This repository was bootstrapped with Create React App and implements the classic 3x3 Tic-Tac-Toe board with a minimal, responsive UI.
 
-## Available Scripts
+## Demo
+
+Run locally (no hosted demo available). See "Development" below to run the app on your machine.
+
+## Features
+
+- Classic 3x3 Tic-Tac-Toe gameplay
+- Two players on the same device (take turns)
+- Win / draw detection
+- Simple, responsive UI
+- Built with React and standard Create React App tooling
+
+## Getting started
+
+These instructions assume you have Node.js and npm installed.
+
+1. Clone the repository
+   git clone https://github.com/Thoufiq2705/TicTacToe-Game.git
+
+2. Change into the project directory
+   cd TicTacToe-Game
+
+3. Install dependencies
+   npm install
+
+4. Start the development server
+   npm start
+
+Open http://localhost:3000 in your browser to view the app. The page will reload as you make edits.
+
+## Available scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- npm start
+  Runs the app in development mode. Open http://localhost:3000 to view it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- npm run build
+  Builds the app for production to the `build` folder. The build is optimized and minified.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- npm test
+  Launches the test runner in interactive watch mode (if tests are configured).
 
+- npm run eject
+  NOTE: this is a one-way operation. Only use when you need to customize the build tooling. See Create React App docs for details.
 
-### `npm run build`
+For more information about these scripts and how Create React App works, see the official docs:
+https://create-react-app.dev/docs/getting-started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project structure (high level)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- src/ - React source code (components, styles, etc.)
+- public/ - Static public assets
+- package.json - Project metadata and scripts
 
-### `npm run eject`
+## Development notes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Keep components small and focused.
+- If you add features (score tracking, AI opponent, persistent storage), add tests and update this README.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome. Please open an issue to discuss proposed changes or submit a pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+When opening a PR:
+- Describe what you changed and why.
+- Keep changes focused and small where possible.
+- Update or add tests for new behavior.
 
+## License & credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was bootstrapped with Create React App. See https://github.com/facebook/create-react-app for more information.
+
+Author: Thoufiq2705
+
+If you'd like any specific changes to this README (add screenshots, a live demo link, CI setup, or instructions for deploying), tell me what to include and I can update it.
