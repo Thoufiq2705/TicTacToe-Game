@@ -5,7 +5,7 @@ A simple Tic-Tac-Toe game built with React. This repository was bootstrapped wit
 ## Demo
 
 Run locally (no hosted demo available). See "Development" below to run the app on your machine.
-
+ 
 ## Features
 
 - Classic 3x3 Tic-Tac-Toe gameplay
