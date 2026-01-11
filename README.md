@@ -1,4 +1,4 @@
-# TicTacToe Game
+ # TicTacToe Game
 
 A simple Tic-Tac-Toe game built with React. This repository was bootstrapped with Create React App and implements the classic 3x3 Tic-Tac-Toe board with a minimal, responsive UI.
 
