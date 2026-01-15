@@ -9,7 +9,7 @@ Run locally (no hosted demo available). See "Development" below to run the app o
 ## Features 
 
 - Classic 3x3 Tic-Tac-Toe gameplay
-- Two players on the same device (take turns)
+- Two players on the same device (take turns) 
 - Win / draw detection
 - Simple, responsive UI
 - Built with React and standard Create React App tooling
